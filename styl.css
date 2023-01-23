@@ -1,0 +1,94 @@
+
+@media (min-width: 800px) {
+  .centent {
+    float: left;
+    width: 66%;
+  }
+}
+.centent{
+  height: 100px;
+}
+
+.navigation {
+  background: #2C505D;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0px; 
+}
+
+
+.navigation a { 
+  text-decoration: none;
+  color: #8D6D42;
+  display: block;
+  padding: 1em;
+  text-align: center;
+}
+
+body {
+  font-family: 'Georgia'serif;
+  font-weight: 400;
+  line-height: 1.45;
+  background: #fcfcfc;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation a:hover { 
+  background: #203c45;
+}
+div{
+  text-align: center;
+}
+.main-box{ 
+  max-width: 1000px;
+  margin: auto;
+  color: #8D6D42;
+}
+
+.box1{
+  background-color: #2c505d10;
+  padding: 90px;
+  margin: 0px;
+}
+.image1{
+  max-width: 400px;
+  text-align: center;
+}
+
+.image2{
+  max-width: 450px;
+}
+.image3{
+  max-width: 1000px;
+}
+
+.foodter-box{
+  background-color: #2C505D;
+  color: #8D6D42;
+  padding: 20px;
+ text-align: center; 
+}
+
+.sprite {
+  width: 450px;
+  height: 400px;
+  background: url('logo3.png') 0 0 no-repeat;
+  animation: play 6s steps(10) infinite;
+  margin: auto;
+  
+}
+@keyframes play {
+  0%{background-position:0px;}
+  100%{background-position: -4498px;}
+}
+
+
+ 
+
+
+
+
+
